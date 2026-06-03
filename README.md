@@ -9,15 +9,16 @@ A production-grade Android habit tracker built to demonstrate clean architecture
 ## Table of Contents
 
 1. [Product Overview](#product-overview)
-2. [Architecture](#architecture)
-3. [Technical Decisions](#technical-decisions)
-4. [System Design Considerations](#system-design-considerations)
-5. [Engineering Highlights](#engineering-highlights)
-6. [Project Structure](#project-structure)
-7. [Local Development](#local-development)
-8. [Testing](#testing)
-9. [Future Improvements](#future-improvements)
-10. [Tech Stack](#tech-stack)
+2. [Screenshots](#screenshots)
+3. [Architecture](#architecture)
+4. [Technical Decisions](#technical-decisions)
+5. [System Design Considerations](#system-design-considerations)
+6. [Engineering Highlights](#engineering-highlights)
+7. [Project Structure](#project-structure)
+8. [Local Development](#local-development)
+9. [Testing](#testing)
+10. [Future Improvements](#future-improvements)
+11. [Tech Stack](#tech-stack)
 
 ---
 
@@ -39,6 +40,18 @@ People who want to build routines — whether exercising 3x per week, reading da
 - **Duplicate protection** — completing the same habit twice in a day is rejected at the domain layer, not the UI.
 
 ---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/habit_list.png" width="220" alt="Habits List"/>
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/new_habit.png" width="220" alt="Create Habit"/>
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/habit_detail.png" width="220" alt="Habit Detail"/>
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/stats.png" width="220" alt="Statistics"/>
+</p>
 
 ## Architecture
 
