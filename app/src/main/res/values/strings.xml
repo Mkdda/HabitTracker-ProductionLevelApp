@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+
+    <!-- Screen titles -->
+    <string name="title_stats">Statistics</string>
+    <string name="title_create_habit">New Habit</string>
+
+    <!-- Error messages -->
+    <string name="error_disk_full">Not enough storage space on your device</string>
+    <string name="error_not_found">Habit not found</string>
+    <string name="error_unknown">Something went wrong. Please try again</string>
+    <string name="error_already_completed">You already completed this habit today 🎯</string>
+    <string name="error_empty_name">Habit name cannot be empty</string>
+    <string name="error_name_too_long">Name must be 50 characters or less</string>
+    <string name="error_invalid_frequency">Frequency must be between 1 and 7 days</string>
+    <string name="error_delete_failed">Could not delete habit. Please try again</string>
+
+    <!-- Habit list -->
+    <string name="label_no_habits_title">No habits yet</string>
+    <string name="label_no_habits_subtitle">Tap + to create your first habit</string>
+    <string name="label_try_again">Try again</string>
+
+    <!-- Habit detail -->
+    <string name="label_current_streak">Current streak</string>
+    <string name="label_best_streak">Best streak</string>
+    <string name="label_completion_rate">Completion rate</string>
+    <string name="label_daily_reminder">⏰ Daily reminder</string>
+    <string name="label_mark_done">Mark as done</string>
+    <string name="label_completed_today">✅ Completed today!</string>
+    <string name="label_delete_dialog_title">Delete habit?</string>
+    <string name="label_delete_dialog_text">\"%1$s\" and all its history will be permanently deleted.</string>
+    <string name="label_delete_confirm">Delete</string>
+    <string name="label_cancel">Cancel</string>
+
+    <!-- Create habit -->
+    <string name="label_habit">Habit</string>
+    <string name="label_habit_name">Habit name</string>
+    <string name="label_habit_name_placeholder">e.g. Morning run</string>
+    <string name="label_frequency">Frequency</string>
+    <string name="label_frequency_min">1x / week</string>
+    <string name="label_frequency_max">Daily</string>
+    <string name="label_reminder_subtitle">Get notified at a set time</string>
+    <string name="label_reminder_time">Reminder time</string>
+    <string name="label_save_habit">Save Habit</string>
+    <string name="label_select_time">Select time</string>
+    <string name="label_ok">OK</string>
+
+    <!-- Stats -->
+    <string name="label_overview">Overview</string>
+    <string name="label_today">Today</string>
+    <string name="label_avg_rate">Avg rate</string>
+    <string name="label_best_streak_overview">🏆 Best streak</string>
+    <string name="label_habits_this_week">Habits this week</string>
+    <string name="label_no_stats_title">No stats yet</string>
+    <string name="label_no_stats_subtitle">Create some habits and start tracking to see your progress here</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_stats">Statistics</string>
+    <string name="cd_add_habit">Add habit</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_delete_habit">Delete habit</string>
+</resources>
